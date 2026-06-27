@@ -30,3 +30,5 @@ web: uvicorn app.main:app --host 0.0.0.0 --port $PORT
 ```
 
 Use Render environment variables to set `KITE_API_KEY`, `KITE_API_SECRET`, `KITE_REDIRECT_URL`, and optionally `KITE_BASE_URL`.
+
+Set Render to use Python 3.12 via `runtime.txt` for compatibility with the `pydantic-core` binary wheels.
