@@ -7,3 +7,4 @@ venv/
 .envrc
 .idea/
 .vscode/
+.pytest_cache/
